@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jan 30 11:27:56 2024
+# Process ID: 12280
+# Current directory: G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/synth_1
+# Command line: vivado.exe -log ddr4_rw_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ddr4_rw_top.tcl
+# Log file: G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/synth_1/ddr4_rw_top.vds
+# Journal file: G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ddr4_rw_top.tcl -notrace

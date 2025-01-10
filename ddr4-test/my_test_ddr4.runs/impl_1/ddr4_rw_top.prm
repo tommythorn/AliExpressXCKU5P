@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x00EB75DB    Jan 30 15:09:26 2024    G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit

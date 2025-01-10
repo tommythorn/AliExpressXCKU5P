@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jan 30 14:41:28 2024
+# Process ID: 9804
+# Current directory: C:/Users/Administrator/Desktop/ddr4 test/my_test_ddr4.runs/impl_1
+# Command line: vivado.exe -log ddr4_rw_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ddr4_rw_top.tcl -notrace
+# Log file: C:/Users/Administrator/Desktop/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.vdi
+# Journal file: C:/Users/Administrator/Desktop/ddr4 test/my_test_ddr4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source ddr4_rw_top.tcl -notrace

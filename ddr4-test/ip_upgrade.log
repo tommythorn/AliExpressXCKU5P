@@ -1,0 +1,27 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jan 26 16:59:52 2024
+| Host         : DESKTOP-1KKS4NE running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xcku5p-ffvb676-1-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ddr4_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of ddr4_0 (xilinx.com:ip:ddr4:2.2 (Rev. 10)) to Vivado generation flows.
+
+2. Warnings
+-----------
+
+WARNING: INFO: upgrade from same called
+
+
+3. Upgrade messages
+-------------------
+
+Set parameter C0.DDR4_EN_PARITY to value false (source 'default')
+

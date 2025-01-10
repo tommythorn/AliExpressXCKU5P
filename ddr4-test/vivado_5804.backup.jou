@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jan 30 15:07:19 2024
+# Process ID: 5804
+# Current directory: G:/xilin/KUP5P/ddr4 test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2952 G:\xilin\KUP5P\ddr4 test\my_test_ddr4.xpr
+# Log file: G:/xilin/KUP5P/ddr4 test/vivado.log
+# Journal file: G:/xilin/KUP5P/ddr4 test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/xilin/KUP5P/ddr4 test/my_test_ddr4.xpr}
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

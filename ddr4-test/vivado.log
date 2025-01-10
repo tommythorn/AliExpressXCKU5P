@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Feb 19 17:46:25 2024
+# Process ID: 10532
+# Current directory: G:/xilin/KUP5P/ddr4 test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11080 G:\xilin\KUP5P\ddr4 test\my_test_ddr4.xpr
+# Log file: G:/xilin/KUP5P/ddr4 test/vivado.log
+# Journal file: G:/xilin/KUP5P/ddr4 test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/xilin/KUP5P/ddr4 test/my_test_ddr4.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 1104.602 ; gain = 0.000
+update_compile_order -fileset sources_1
+write_cfgmem  -format mcs -size 16 -interface SPIx4 -loadbit {up 0x00000000 "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit" } -file "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs"
+Command: write_cfgmem -format mcs -size 16 -interface SPIx4 -loadbit {up 0x00000000 "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit" } -file {G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs}
+Creating config memory files...
+ERROR: [Writecfgmem 68-5] Cannot overwrite file G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.prm. Use "-force" flag.
+0 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+write_cfgmem failed
+ERROR: [Common 17-39] 'write_cfgmem' failed due to earlier errors.
+write_cfgmem  -format mcs -size 16 -interface SPIx4 -loadbit {up 0x00000000 "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit" } -file "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs"
+Command: write_cfgmem -format mcs -size 16 -interface SPIx4 -loadbit {up 0x00000000 "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit" } -file {G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs}
+Creating config memory files...
+ERROR: [Writecfgmem 68-5] Cannot overwrite file G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.prm. Use "-force" flag.
+0 Infos, 0 Warnings, 0 Critical Warnings and 1 Errors encountered.
+write_cfgmem failed
+ERROR: [Common 17-39] 'write_cfgmem' failed due to earlier errors.
+write_cfgmem  -format mcs -size 16 -interface SPIx4 -loadbit {up 0x00000000 "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit" } -file "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs"
+Command: write_cfgmem -format mcs -size 16 -interface SPIx4 -loadbit {up 0x00000000 "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit" } -file {G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs}
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit
+Writing file G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs
+Writing log file G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.prm
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x00EB75DB    Jan 30 15:09:26 2024    G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+write_cfgmem: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2694.375 ; gain = 63.609
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 19 18:01:21 2024...

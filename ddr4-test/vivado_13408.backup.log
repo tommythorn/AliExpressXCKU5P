@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jan 30 11:21:38 2024
+# Process ID: 13408
+# Current directory: G:/xilin/KUP5P/ddr4 test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1372 G:\xilin\KUP5P\ddr4 test\my_test_ddr4.xpr
+# Log file: G:/xilin/KUP5P/ddr4 test/vivado.log
+# Journal file: G:/xilin/KUP5P/ddr4 test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/xilin/KUP5P/ddr4 test/my_test_ddr4.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:16 . Memory (MB): peak = 1136.664 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Jan 30 11:27:53 2024] Launched synth_1...
+Run output will be captured here: G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/synth_1/runme.log
+[Tue Jan 30 11:27:54 2024] Launched impl_1...
+Run output will be captured here: G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/runme.log
+write_cfgmem  -format mcs -size 32 -interface SPIx4 -loadbit {up 0x00000000 "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit" } -file "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs"
+Command: write_cfgmem -format mcs -size 32 -interface SPIx4 -loadbit {up 0x00000000 "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit" } -file {G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs}
+Creating config memory files...
+Creating bitstream load up from address 0x00000000
+Loading bitfile G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit
+Writing file G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs
+Writing log file G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.prm
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x00EB75DB    Jan 30 11:44:00 2024    G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+write_cfgmem completed successfully
+write_cfgmem: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2723.313 ; gain = 62.129
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 30 14:39:42 2024...

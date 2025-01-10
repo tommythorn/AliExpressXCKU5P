@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jan 30 14:49:30 2024
+# Process ID: 8484
+# Current directory: C:/Users/Administrator/Desktop/ddr4 test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5832 C:\Users\Administrator\Desktop\ddr4 test\my_test_ddr4.xpr
+# Log file: C:/Users/Administrator/Desktop/ddr4 test/vivado.log
+# Journal file: C:/Users/Administrator/Desktop/ddr4 test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Administrator/Desktop/ddr4 test/my_test_ddr4.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 1139.012 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Jan 30 14:50:02 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Administrator/Desktop/ddr4 test/my_test_ddr4.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 30 14:51:51 2024...

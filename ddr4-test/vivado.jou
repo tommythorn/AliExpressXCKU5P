@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Feb 19 17:46:25 2024
+# Process ID: 10532
+# Current directory: G:/xilin/KUP5P/ddr4 test
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11080 G:\xilin\KUP5P\ddr4 test\my_test_ddr4.xpr
+# Log file: G:/xilin/KUP5P/ddr4 test/vivado.log
+# Journal file: G:/xilin/KUP5P/ddr4 test\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/xilin/KUP5P/ddr4 test/my_test_ddr4.xpr}
+update_compile_order -fileset sources_1
+write_cfgmem  -format mcs -size 16 -interface SPIx4 -loadbit {up 0x00000000 "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit" } -file "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs"
+write_cfgmem  -format mcs -size 16 -interface SPIx4 -loadbit {up 0x00000000 "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit" } -file "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs"
+write_cfgmem  -format mcs -size 16 -interface SPIx4 -loadbit {up 0x00000000 "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.bit" } -file "G:/xilin/KUP5P/ddr4 test/my_test_ddr4.runs/impl_1/ddr4_rw_top.mcs"
