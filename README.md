@@ -15,6 +15,6 @@ and this README.md.
 
 ## Adapter board
 
-The headers have 1 mm spacing, not the common 0.1".  It would be Really Nice™ if
-someone were to design a breakout board for this, perhaps with a couple of 
-PMOD connectors.
+The headers are double density, 0.05" pin spacing, not the more common 0.1".
+It would be Really Nice™ if someone were to design a breakout board for this,
+perhaps with a couple of PMOD connectors.
