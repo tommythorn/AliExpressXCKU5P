@@ -12,3 +12,9 @@ XC7K325T"](https://www.aliexpress.us/item/3256807736820342.html))
 This repo reproduces the associated collateral (with permission from the seller).
 My only change is to renamed some chinese named directories, adding a few pictures
 and this README.md.
+
+## Adapter board
+
+The headers have 1 mm spacing, not the common 0.1".  It would be Really Nice™ if
+someone were to design a breakout board for this, perhaps with a couple of 
+PMOD connectors.
